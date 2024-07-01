@@ -1,0 +1,149 @@
+/* Base styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 10;
+    padding: 0;
+    background-color: lightblue /* Background color for the body */
+    /* color: #333; */
+}
+
+/* Header styles */
+header {
+    background-color: #0a0a0a; /* Dark background for header */
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1.5em;
+}
+
+nav ul li a {
+    color: #fff; /* White color for navigation links */
+    text-decoration: none;
+    font-weight: 400;
+}
+
+nav ul li a:hover {
+    color: #ff6b6b; /* Highlight color for navigation links on hover */
+}
+
+/* Hero section styles */
+.hero-section {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+}
+
+.btn {
+    background-color: #ff6b6b; /* Button background color */
+    color: #fff;
+    padding: 0.75em 1.5em;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #e65555; /* Button hover color */
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: Add rounded corners to the image */
+}
+
+/* Info section styles */
+.info-section {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.info-section h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.info-section p {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+form input,
+form select {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form button {
+    margin-top: 1em;
+    padding: 0.75em;
+    background-color: #0a0a0a; /* Button background color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #333; /* Button hover color */
+}
+
+/* Footer styles */
+
+}
